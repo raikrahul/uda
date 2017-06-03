@@ -1,0 +1,46 @@
+- It makes sense to set up shared memory provided the setup "cost"
+  can be amortized . What does it mean with an example. 
+  
+  
+  Common goal of multiple processes. 
+  Programming example of message passing in linux. 
+  OS manages the message passing channel.  Where in linux can this managment of channel be seen?
+  Example of shared memory channel?
+  What is the need of Message Passing channel sitting in the kernel memory?
+  Why the shared memory channel sits in user space? Example of "OS out of the way"?
+  
+  Scheduler - 
+  https://www.quora.com/What-is-the-process-id-PID-of-the-process-scheduler?share=1
+  https://www.quora.com/What-is-the-process-id-PID-of-the-process-scheduler/answer/Yao-Wang-12?share=1
+  Process waiting for an interrupt, what does it mean?
+  If the interrupt makes sure the process ends up on a ready queue, what it entails?
+  Is schduling time constant? P1---P2---
+  How to see dispatching to the CPU? 
+  Show preemption in linux by code snap.
+  preempth + schedule + dispatch 
+  after fork - both child + parents have duplicate PCB - hence will start execution at same POINT, not TIME
+  after exec - pc of child points to first instruction of program 
+  https://unix.stackexchange.com/questions/174062/init-as-a-shell-script
+  fork then replace image 
+  
+  How to see PCB in linux? 
+  How to see the restore of PCB of P1 To P2.
+  Chnage process control block by writing a kernel module.
+  See the init process control block of a newly made process.
+  Which feild changes very frequently as long as PCB is valid 
+  
+  What used to happen before there was no   PC register?
+  Is the type of counter in PCB a register type?
+  PC gets updated on every new instruction - Proof in linux. 
+  Hardware maintains stuff for each process, OS collects it, proof?
+  How to see the stack pointer in the PCB in linux?
+  
+  Write a module to see VMAX on a system. Change the system properties and see or not see the changes.
+  Some portion of address space swapped on disk?
+  How do know the what portion of memory is swapped on disk for a process running?
+  How is the disk encryption effects the sawp. 
+  Write a module to print stack pointer of the curent process,
+  Write a module to print the heap pointer, see the text of current task, dmesg the heap pointer.
+  dmesg a virtual address to a physical address, follow the poninter and print it 
+  ADDRESS SPACE STATE 
+  
