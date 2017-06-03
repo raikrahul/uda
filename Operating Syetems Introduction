@@ -1,1 +1,58 @@
 
+Lessons Learned. References Made. Papers Read. Memorization Made. 
+
+
+References to be made: 
+ - the slides are at 
+     http://www.cc.gatech.edu/classes/AY2010/cs4210_fall/
+     So is the reading. 
+     
+
+Lesson 1 - 
+    How is modular approach in linux made possible?
+    What does it mean when one says that, each of "these components can be replaced or re-replaced"
+    Where can one see a code example of such case?
+    
+    How does the MacOS kernel differ from the Linux ?
+    Cannot the BSD component be just replaced ( plugged ) away?
+    IPC is done by the Non BSD part of the MacOs kernel.
+    How does writing a kernel module for MacOS differ from writing a kernel module in linux?
+    
+    What is an example of a micro -kernel ?
+    Can we do a code walk or source snapshot of a microkernel?
+    Does a device driver runs in User Space in Microkernel?
+    Where can one see a code example for the a device driver in user space for a micro kernel?
+    What is very small in number ? How to actually test a micro kernel behaviour? 
+    Claim - verifiable ? How to verify this.
+    Claim - Portbility - How to see it in example?
+    
+    
+    
+    Modular OS - What are the interfaces provided by the linux kernel to be implemented by modules?
+    What is a file system optimized for random access?
+    Which is smaller code base? Modular OS or Microkernel?
+    What are those some oppurtunities which are reduced for optimization if one wants to implement a certain interface 
+    provided by a modular OS?
+    
+    
+    
+    
+    Monolithic OS ? When does a hardware demand a service?
+    
+    Hardware provides supprt to make sure user kernel transitions are easy!
+    How does the hardware know that an application  running in unprevilaged mode 
+    actually wants to execute some function operation to which it has no power over.
+    How to verify how much time it takes do a context switch?
+    App wants hardware cache- in cycles - 
+    What does the OS brings in cache while a system trap/ crossing into the OS layer.
+    Jumping in memory of kernel to see the instructions to that system call? How to see it.
+    An application must save data at a well defined location? 
+    What does it even mean? Example in code.  Where is the well defined location?
+    
+    What is the bit which makes sure if you can execute some operation?
+    Are system calls orthogonal to signals?
+    
+    
+    
+    
+    
