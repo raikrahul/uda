@@ -5,6 +5,7 @@
   Common goal of multiple processes. 
   Programming example of message passing in linux. 
   OS manages the message passing channel.  Where in linux can this managment of channel be seen?
+  https://unix.stackexchange.com/questions/6930/how-is-a-message-queue-implemented-in-the-linux-kernel
   Example of shared memory channel?
   What is the need of Message Passing channel sitting in the kernel memory?
   Why the shared memory channel sits in user space? Example of "OS out of the way"?
@@ -17,7 +18,7 @@
   Is schduling time constant? P1---P2---
   How to see dispatching to the CPU? 
   Show preemption in linux by code snap.
-  preempth + schedule + dispatch 
+  preemption + schedule + dispatch 
   after fork - both child + parents have duplicate PCB - hence will start execution at same POINT, not TIME
   after exec - pc of child points to first instruction of program 
   https://unix.stackexchange.com/questions/174062/init-as-a-shell-script
